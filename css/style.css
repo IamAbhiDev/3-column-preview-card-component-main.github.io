@@ -38,3 +38,28 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+/*Components*/
+
+.container {
+    border-radius: .5rem;
+    overflow: hidden;
+    margin: 1.4rem;
+}
+
+.container__card {
+    color: var(--very-light-gray);
+    padding: 2.8rem;
+}
+
+.container__card--bright-orange {
+    background: var(--bright-orange);
+}
+
+.container__card--dark-cyan {
+    background: var(--dark-cyan);
+}
+
+.container__card--very-dark-cyan {
+    background: var(--very-dark-cyan);
+}
