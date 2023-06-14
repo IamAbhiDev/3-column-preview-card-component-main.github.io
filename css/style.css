@@ -27,3 +27,14 @@
     --very-light-gray: hsl(0, 0%, 95%);
     /*Background, Heading, and Button*/
 }
+
+/*Basic Styles*/
+
+body {
+    background: var(--very-light-gray);
+    font-family: 'Lexend Deca', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
