@@ -44,12 +44,12 @@ body {
 .container {
     border-radius: .5rem;
     overflow: hidden;
-    margin: 1.4rem;
+    margin: 1.5rem;
 }
 
 .container__card {
     color: var(--very-light-gray);
-    padding: 2.8rem;
+    padding: 3rem;
 }
 
 .container__card--bright-orange {
@@ -73,6 +73,29 @@ body {
 
 .container__card__text {
     color: var(--transparent-white);
+    font-size: .9375rem;
     line-height: 1.6;
     margin-top: 1.9rem;
+}
+
+.container__card__btn {
+    background: var(--very-light-gray);
+    font-size: .9375rem;
+    text-decoration: none;
+    border-radius: 2rem;
+    display: inline-block;
+    padding: .9rem 1.8rem;
+    margin-top: 1.6rem;
+}
+
+.container__card__btn--bright-orange {
+    color: var(--bright-orange);
+}
+
+.container__card__btn--dark-cyan {
+    color: var(--dark-cyan);
+}
+
+.container__card__btn--very-dark-cyan {
+    color: var(--very-dark-cyan);
 }
