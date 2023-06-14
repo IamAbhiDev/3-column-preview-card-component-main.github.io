@@ -99,3 +99,21 @@ body {
 .container__card__btn--very-dark-cyan {
     color: var(--very-dark-cyan);
 }
+
+/*Responsive Web Design*/
+
+@media screen and (min-width: 53.125rem) {
+    .container {
+        width: 900px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .container__card {
+        padding: 2.8rem;
+    }
+
+    .container__card__btn {
+        margin-top: 6rem;
+    }
+}
